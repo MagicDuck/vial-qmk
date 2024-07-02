@@ -1,0 +1,50 @@
+// example include other file
+// see: https://blog.gboards.ca/2020/02/adventures-in-obscure-c-features-2020.html
+
+// action keys
+COMB(esc, KC_ESC, KC_J, KC_K)
+COMB(enter, KC_ENT, KC_D, KC_F)
+
+// /* (  <- dr */ COMB(leftParend, KC_LPRN, KC_D, KC_R)
+// /* )  <- ku */ COMB(rightParend, KC_RPRN, KC_K, KC_U)
+//
+// /* {  <- cv */ COMB(leftCurly, KC_LCBR, KC_C, KC_V)
+// /* }  <- m, */ COMB(rightCurly, KC_RCBR, KC_M, KC_COMM)
+//
+// /* [  <- xc */ COMB(leftSquare, KC_LBRC, KC_X, KC_C)
+// /* ]  <- ,. */ COMB(rightSquare, KC_RBRC, KC_COMM, KC_DOT)
+//
+// /* <  <- fg */ COMB(leftAngle, KC_LT, KC_F, KC_G)
+// /* >  <- hj */ COMB(rightAngle, KC_GT, KC_H, KC_J)
+//
+// /* =  <- kl */ COMB(equal, KC_EQL, KC_K, KC_L)
+// /* _  <- dv */ COMB(underscore, KC_UNDS, KC_D, KC_V)
+// /* -  <- ef */ COMB(dash, KC_MINS, KC_E, KC_F)
+// /* *  <- mk */ COMB(star, KC_ASTR, KC_M, KC_K)
+//
+// /* `  <- yu */ COMB(backtick, KC_GRV, KC_Y, KC_U)
+// /* +  <- rt */ COMB(plus, KC_PLUS, KC_R, KC_T)
+// /* !  <- vb */ COMB(exclam, KC_EXLM, KC_V, KC_B)
+// /* ~  <- nm */ COMB(tilda, KC_TILD, KC_N, KC_M)
+//
+// /* #  <- dw */ COMB(hash, KC_HASH, KC_D, KC_W)
+// /* $  <- ko */ COMB(dollar, KC_DLR, KC_K, KC_O)
+// /* &  <- rg */ COMB(ampersand, KC_AMPR, KC_R, KC_G)
+// /* |  <- hu */ COMB(pipe, KC_PIPE, KC_H, KC_U)
+//
+// /* @  <- ft */ COMB(at, KC_AT, KC_F, KC_T)
+// /* ^  <- 3r */ COMB(circumflex, KC_CIRC, KC_3, KC_R)
+// /* %  <- u8 */ COMB(percent, KC_PERC, KC_U, KC_8)
+// /* \  <- 4t */ COMB(backslash, KC_BSLS, KC_4, KC_T)
+//
+// /* ''  <- jn */ COMB(singleQuote, KC_QUOT, KC_J, KC_N)
+// /* ""  <- fb */ COMB(doubleQuote, KC_DOUBLE_QUOTE, KC_F, KC_B)
+
+// note: also available: xd, cf, j,, ft,
+// combos that conflict with regular typing
+// df -> ebfd
+// ji -> jira
+// sd, kl -> uncomfortable for parends
+
+// consider: Maybe ENTER on a combo?
+
